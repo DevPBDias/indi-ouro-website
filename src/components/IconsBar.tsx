@@ -5,7 +5,7 @@ import youtubeIcon from '../../public/icons/youtubeIcon.png'
 
 const IconsBar = () => {
     return (
-        <div>
+        <div className='flex flex-row gap-4 cursor-pointer'>
             <Image src={instagramIcon} alt='instagram Icon' />
             <Image src={youtubeIcon} alt='youtube Icon' />
         </div>
