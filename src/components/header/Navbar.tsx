@@ -1,5 +1,5 @@
 import React from 'react'
-import { headerLinks } from '../constants/navbarLinks'
+import { headerLinks } from '../../constants/navbarLinks'
 import Link from 'next/link'
 
 const Navbar = () => {
