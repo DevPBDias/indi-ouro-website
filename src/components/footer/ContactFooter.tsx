@@ -4,13 +4,15 @@ import React from 'react'
 
 const ContactFooter = () => {
     return (
-        <section>
-            <h3>Fale conosco</h3>
+        <section className='flex flex-col justify-between items-start justify-items-center gap-3'>
+            <h3 className='font-semibold text-base uppercase text-[--secondary-color]'
+            >Fale conosco</h3>
             {
                 footerLinks.map((links) => (
-                    <div>
+                    <div className='flex flex-row gap-2 items-center'>
                         <Image src={links.icon} alt={links.description} />
-                        <p>{links.value}</p>
+                        <p className='text-sm text-[--txt-primary-color]'
+                        >{links.value}</p>
                     </div>
                 ))
             }

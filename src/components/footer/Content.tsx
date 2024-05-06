@@ -3,9 +3,11 @@ import Logo from '../Logo'
 
 const Content = () => {
     return (
-        <section>
+        <section className='flex flex-col justify-center items-center gap-2'>
             <Logo />
-            <h5>Valoriza rebanhos</h5>
+            <h5 className='text-[--txt-primary-color] font-bold italic text-xl'>
+                Valoriza rebanhos
+            </h5>
         </section>
     )
 }
