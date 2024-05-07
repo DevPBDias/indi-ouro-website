@@ -5,7 +5,7 @@ import IconsBar from '../IconsBar'
 
 const Header = () => {
     return (
-        <header className='bg-[--primary-color] w-full h-24 px-[10%] fixed top-0 left-0'>
+        <header className='bg-[--primary-color] w-full h-20 px-[10%]'>
             <section className='flex flex-row justify-between items-center h-full'>
                 <Logo />
                 <Navbar />
