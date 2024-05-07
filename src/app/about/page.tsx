@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import whoImg from '../../../public/images/who.png'
 
-const page = () => {
+const About = () => {
     return (
         <main>
             <section className='flex flex-row px-[10%] mt-8 py-10 gap-3 h-[630px]'>
@@ -33,4 +33,4 @@ const page = () => {
     )
 }
 
-export default page
+export default About
