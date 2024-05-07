@@ -18,3 +18,12 @@ export type IGalleryCard = {
     title: string,
     image: StaticImageData,
 }
+
+export type IBullCard = {
+    id: number,
+    name: string,
+    fatherName: string,
+    iABCz: number,
+    image: StaticImageData,
+}
+
