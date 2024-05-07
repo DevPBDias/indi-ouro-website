@@ -12,3 +12,9 @@ export type IContact = {
     icon: StaticImageData,
     value: string,
 }
+
+export type IGalleryCard = {
+    id: number,
+    title: string,
+    image: StaticImageData,
+}

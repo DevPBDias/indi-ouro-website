@@ -6,7 +6,7 @@ import Copyright from './Copyright'
 
 const Footer = () => {
     return (
-        <footer className='bg-[--primary-color] w-full px-[10%] fixed bottom-0 left-0 py-4'>
+        <footer className='bg-[--primary-color] w-full px-[10%] py-4'>
             <section className='flex flex-row justify-between py-2'>
                 <Content />
                 <ContactFooter />

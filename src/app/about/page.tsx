@@ -6,7 +6,7 @@ import FarmImage from '@/components/about/FarmImage'
 const About = () => {
     return (
         <main>
-            <section className='flex flex-row px-[10%] mt-8 py-10 gap-3 h-[630px]'>
+            <section className='flex flex-row px-[10%] my-8 py-10 gap-3 h-[638px]'>
                 <Text />
                 <FarmImage />
             </section>
