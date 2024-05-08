@@ -9,7 +9,7 @@ const ContactFooter = () => {
             >Fale conosco</h3>
             {
                 footerLinks.map((links) => (
-                    <div className='flex flex-row gap-2 items-center'>
+                    <div key={links.id} className='flex flex-row gap-2 items-center'>
                         <Image src={links.icon} alt={links.description} />
                         <p className='text-sm text-[--txt-primary-color]'
                         >{links.value}</p>
