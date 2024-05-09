@@ -27,3 +27,7 @@ export type IBullCard = {
     image: StaticImageData,
 }
 
+export type ICoordinates = {
+    latitude: string,
+    longitude: string,
+}
