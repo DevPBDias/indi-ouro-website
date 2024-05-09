@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from '../Logo'
 import Navbar from './Navbar'
 import IconsBar from '../IconsBar'
+import AdminBtn from './AdminBtn'
 
 const Header = () => {
     return (
@@ -10,6 +11,7 @@ const Header = () => {
                 <Logo />
                 <Navbar />
                 <IconsBar />
+                <AdminBtn />
             </section>
         </header>
     )
