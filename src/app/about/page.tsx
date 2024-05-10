@@ -1,15 +1,14 @@
 import Footer from '@/components/footer/Footer'
 import React from 'react'
 import Text from '@/components/about/Text'
-import FarmImage from '@/components/about/FarmImage'
+import Image from 'next/image'
+import whoBanner from '../../../public/images/whoBanner.jpeg'
 
 const About = () => {
     return (
         <main>
-            <section className='flex flex-row px-[10%] my-8 py-10 gap-3 h-[638px]'>
-                <Text />
-                <FarmImage />
-            </section>
+            <Image src={whoBanner} alt='banner who' />
+            <Text />
             <Footer />
         </main>
     )

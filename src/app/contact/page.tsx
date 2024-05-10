@@ -17,6 +17,9 @@ const Contact = () => {
               <div className='flex flex-row justify-start items-center gap-5'>
                 <Image src={blueLocation} alt='' />
                 <p className='text-xl text-[--txt-secondary-color]'>Fazenda AGRO 3MIL, Porto Nacional, Tocantins</p>
+                <a href="https://www.google.com/maps/dir//Fazenda+AGRO+3MIL+-+Rodovia+TO-255+Entrada+%C3%A0+esquerda+pr%C3%B3ximo+%C3%A0+Escola+Brasil+Sent.+F%C3%A1tima+17Km+da+TO-255+Zona+Rural,+Porto+Nacional+-+TO,+77500-000/@-10.7969893,-48.6226236,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x933b7996fc8955a5:0x18975f2bc9976613!2m2!1d-48.6226236!2d-10.7969893?entry=ttu">
+                  Rota da fazenda
+                </a>
               </div>
               <div className='flex flex-row justify-start items-center gap-5'>
                 <Image src={blueWpp} alt='' />
@@ -28,9 +31,6 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <picture className='w-1/2 h-full'>
-            <Image className='w-full h-full' src={map} alt='' />
-          </picture>
         </div>
       </section>
       <Footer />
