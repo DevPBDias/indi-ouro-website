@@ -10,8 +10,8 @@ const GalleryCard = ({ data }: any | IGalleryCard) => {
 
   return (
     <div
-      className="relative w-full h-full cursor-pointer hover:scale-[1.05]"
-      onClick={() => router.push(`/gallery/${data.id}`)}
+      className="relative w-full h-full cursor-pointer transition-all hover:scale-[1.04]"
+      onClick={() => router.push(`/gallery/${data.route}`)}
     >
       <picture className="w-full h-full">
         <Image

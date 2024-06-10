@@ -2,7 +2,7 @@ import React from "react";
 
 const Text = () => {
   return (
-    <section className="w-full py-4 px-[25%] h-full flex flex-col m-auto gap-5">
+    <section className="w-full py-4 px-[25%] h-full flex flex-col mx-auto my-8 gap-5">
       <h1 className="text-4xl uppercase font-bold text-[--primary-color]">
         Quem somos
       </h1>

@@ -4,42 +4,50 @@ import gallery from "../../public/images/gallery.png";
 export const galleryData: IGalleryCard[] = [
   {
     id: 1,
-    title: "Fazenda",
+    title: "Sede",
     image: gallery,
+    route: "sede",
   },
   {
     id: 2,
-    title: "Fazenda",
+    title: "Pássaros",
     image: gallery,
+    route: "passaros",
   },
   {
     id: 3,
-    title: "Fazenda",
+    title: "Gado",
     image: gallery,
+    route: "gado",
   },
   {
     id: 4,
-    title: "Fazenda",
+    title: "Flores",
     image: gallery,
+    route: "flores",
   },
   {
     id: 5,
-    title: "Fazenda",
+    title: "Animais silvetres",
     image: gallery,
+    route: "animais-silvetres",
   },
   {
     id: 6,
-    title: "Fazenda",
+    title: "Companheiros",
     image: gallery,
+    route: "companheiros",
   },
   {
     id: 7,
-    title: "Fazenda",
+    title: "Pastos",
     image: gallery,
+    route: "pastos",
   },
   {
     id: 8,
-    title: "Fazenda",
+    title: "Vegetação",
     image: gallery,
+    route: "vegetacao",
   },
 ];

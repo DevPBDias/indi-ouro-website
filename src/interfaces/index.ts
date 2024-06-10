@@ -17,6 +17,13 @@ export type IGalleryCard = {
   id: number;
   title: string;
   image: StaticImageData;
+  route: string;
+};
+
+export type IGalleryPhotos = {
+  id: number;
+  description: string;
+  image: StaticImageData;
 };
 
 export type IBullCard = {
