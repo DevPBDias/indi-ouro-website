@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={open_sans.className}>
         <Header />
         {children}
-        </body>
+      </body>
     </html>
   );
 }

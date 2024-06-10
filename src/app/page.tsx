@@ -1,5 +1,5 @@
 import Image from "next/image";
-import hero from '../../public/images/hero.png'
+import hero from "../../public/images/hero.png";
 import WeatherCard from "@/components/Weather";
 import CoinCard from "@/components/Coins";
 
@@ -7,7 +7,9 @@ export default function Home() {
   return (
     <main>
       <picture>
-        <Image src={hero} alt="farm bulls and trees"
+        <Image
+          src={hero}
+          alt="farm bulls and trees"
           className="w-full h-[89vh]"
         />
       </picture>
