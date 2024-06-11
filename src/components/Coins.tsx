@@ -10,13 +10,13 @@ const CoinCard = async () => {
 
   return (
     <div className="flex flex-row w-max gap-4 items-center">
-      <p className="font-semibold text-xl">
+      <p className="font-normal text-lg">
         <span className="font-bold text-xl text-[--primary-color] mr-3">
           Euro
         </span>
         R${convertCurrencyToReal(data?.EUR).toFixed(2)}
       </p>
-      <p className="font-semibold text-xl ">
+      <p className="font-normal text-lg">
         <span className="font-bold text-xl text-[--primary-color] mr-3">
           Dólar
         </span>
